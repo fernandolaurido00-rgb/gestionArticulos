@@ -1,5 +1,5 @@
 <?php
-include('config/conexion.php');
+include('conexion.php');
 
 $nombre = $_POST['nombre'];
 $marca = $_POST['marca'];

@@ -1,5 +1,5 @@
 <?php
-include('config/conexion.php');
+include('conexion.php');
 
 $sql = "SELECT * FROM articulos ORDER BY id DESC";
 $resultado = $conn->query($sql);
