@@ -55,7 +55,7 @@ $resultado = $conn->query($sql);
                 <?php endwhile; ?>
             <?php else: ?>
                 <tr>
-                    <td colspan="6">No hay artículos registrados</td>
+                    <td colspan="6">No hay artículos registrados mostrar</td>
                 </tr>
             <?php endif; ?>
         </tbody>
